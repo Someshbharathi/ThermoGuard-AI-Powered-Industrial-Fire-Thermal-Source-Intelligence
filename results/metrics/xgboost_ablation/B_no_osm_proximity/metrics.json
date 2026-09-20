@@ -1,0 +1,83 @@
+{
+    "experiment": "B_no_osm_proximity",
+    "description": "Remove all threshold-based OSM proximity flags",
+    "feature_count": 29,
+    "features": [
+        "bright_ti4",
+        "bright_ti5",
+        "frp",
+        "scan",
+        "track",
+        "confidence_score",
+        "distance_to_industrial_area_km",
+        "distance_to_industrial_works_km",
+        "distance_to_storage_tank_km",
+        "distance_to_petroleum_well_km",
+        "distance_to_quarry_km",
+        "distance_to_mining_km",
+        "detection_count",
+        "active_days",
+        "duration_days",
+        "detections_per_active_day",
+        "persistence_ratio",
+        "detections_7d",
+        "detections_30d",
+        "detections_90d",
+        "event_detection_count",
+        "event_active_days",
+        "event_duration_days",
+        "event_mean_frp",
+        "event_max_frp",
+        "event_satellite_count",
+        "month",
+        "day_of_year",
+        "hour"
+    ],
+    "train": {
+        "accuracy": 1.0,
+        "precision_weighted": 1.0,
+        "recall_weighted": 1.0,
+        "f1_weighted": 1.0,
+        "f1_macro": 1.0
+    },
+    "validation": {
+        "accuracy": 1.0,
+        "precision_weighted": 1.0,
+        "recall_weighted": 1.0,
+        "f1_weighted": 1.0,
+        "f1_macro": 1.0
+    },
+    "test": {
+        "accuracy": 0.9942196531791907,
+        "precision_weighted": 0.9943896633798028,
+        "recall_weighted": 0.9942196531791907,
+        "f1_weighted": 0.9942317129623188,
+        "f1_macro": 0.9935804846734071
+    },
+    "confusion_matrix": [
+        [
+            48,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            46,
+            1,
+            0
+        ],
+        [
+            0,
+            0,
+            33,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            45
+        ]
+    ]
+}

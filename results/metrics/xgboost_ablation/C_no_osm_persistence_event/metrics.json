@@ -1,0 +1,63 @@
+{
+    "experiment": "C_no_osm_persistence_event",
+    "description": "Remove OSM, persistence and event-derived features",
+    "feature_count": 9,
+    "features": [
+        "bright_ti4",
+        "bright_ti5",
+        "frp",
+        "scan",
+        "track",
+        "confidence_score",
+        "month",
+        "day_of_year",
+        "hour"
+    ],
+    "train": {
+        "accuracy": 1.0,
+        "precision_weighted": 1.0,
+        "recall_weighted": 1.0,
+        "f1_weighted": 1.0,
+        "f1_macro": 1.0
+    },
+    "validation": {
+        "accuracy": 0.43575418994413406,
+        "precision_weighted": 0.4380143863877022,
+        "recall_weighted": 0.43575418994413406,
+        "f1_weighted": 0.4356092692908216,
+        "f1_macro": 0.43081981096373423
+    },
+    "test": {
+        "accuracy": 0.4682080924855491,
+        "precision_weighted": 0.4742236859792983,
+        "recall_weighted": 0.4682080924855491,
+        "f1_weighted": 0.46802347617268486,
+        "f1_macro": 0.4621396127237249
+    },
+    "confusion_matrix": [
+        [
+            25,
+            8,
+            1,
+            14
+        ],
+        [
+            4,
+            25,
+            10,
+            8
+        ],
+        [
+            2,
+            17,
+            12,
+            2
+        ],
+        [
+            12,
+            10,
+            4,
+            19
+        ]
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "experiment": "D_firms_only",
+    "description": "Use only raw FIRMS thermal/signal features",
+    "feature_count": 6,
+    "features": [
+        "bright_ti4",
+        "bright_ti5",
+        "frp",
+        "scan",
+        "track",
+        "confidence_score"
+    ],
+    "train": {
+        "accuracy": 0.9965325936199723,
+        "precision_weighted": 0.9965369908273034,
+        "recall_weighted": 0.9965325936199723,
+        "f1_weighted": 0.9965284566648921,
+        "f1_macro": 0.996670721303022
+    },
+    "validation": {
+        "accuracy": 0.4022346368715084,
+        "precision_weighted": 0.40335965249876826,
+        "recall_weighted": 0.4022346368715084,
+        "f1_weighted": 0.40231295802049705,
+        "f1_macro": 0.3962440051357577
+    },
+    "test": {
+        "accuracy": 0.4624277456647399,
+        "precision_weighted": 0.46329785082647995,
+        "recall_weighted": 0.4624277456647399,
+        "f1_weighted": 0.46162330227632103,
+        "f1_macro": 0.45944823766084475
+    },
+    "confusion_matrix": [
+        [
+            25,
+            6,
+            2,
+            15
+        ],
+        [
+            10,
+            21,
+            10,
+            6
+        ],
+        [
+            4,
+            14,
+            13,
+            2
+        ],
+        [
+            14,
+            8,
+            2,
+            21
+        ]
+    ]
+}

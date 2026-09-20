@@ -1,0 +1,119 @@
+{
+    "samples_explained": 173,
+    "features": 53,
+    "classes": {
+        "0": "Natural",
+        "1": "Industrial",
+        "2": "Mining",
+        "3": "Other_Uncertain"
+    },
+    "top_features": [
+        {
+            "feature": "active_days",
+            "mean_abs_shap": 1.0780166387557983,
+            "rank": 1
+        },
+        {
+            "feature": "distance_to_industrial_area_km",
+            "mean_abs_shap": 0.8431121110916138,
+            "rank": 2
+        },
+        {
+            "feature": "quarry_within_1km",
+            "mean_abs_shap": 0.6467978954315186,
+            "rank": 3
+        },
+        {
+            "feature": "detection_count",
+            "mean_abs_shap": 0.5389706492424011,
+            "rank": 4
+        },
+        {
+            "feature": "distance_to_quarry_km",
+            "mean_abs_shap": 0.5208476185798645,
+            "rank": 5
+        },
+        {
+            "feature": "persistence_ratio",
+            "mean_abs_shap": 0.2553826570510864,
+            "rank": 6
+        },
+        {
+            "feature": "duration_days",
+            "mean_abs_shap": 0.2230004519224167,
+            "rank": 7
+        },
+        {
+            "feature": "event_detection_count",
+            "mean_abs_shap": 0.12275698781013489,
+            "rank": 8
+        },
+        {
+            "feature": "distance_to_storage_tank_km",
+            "mean_abs_shap": 0.10405893623828888,
+            "rank": 9
+        },
+        {
+            "feature": "detections_7d",
+            "mean_abs_shap": 0.10099971294403076,
+            "rank": 10
+        },
+        {
+            "feature": "event_mean_frp",
+            "mean_abs_shap": 0.09595956653356552,
+            "rank": 11
+        },
+        {
+            "feature": "bright_ti4",
+            "mean_abs_shap": 0.08144301921129227,
+            "rank": 12
+        },
+        {
+            "feature": "industrial_area_within_5km",
+            "mean_abs_shap": 0.07742445915937424,
+            "rank": 13
+        },
+        {
+            "feature": "distance_to_industrial_works_km",
+            "mean_abs_shap": 0.07508242130279541,
+            "rank": 14
+        },
+        {
+            "feature": "industrial_area_within_1km",
+            "mean_abs_shap": 0.06607896834611893,
+            "rank": 15
+        },
+        {
+            "feature": "event_duration_days",
+            "mean_abs_shap": 0.04075288772583008,
+            "rank": 16
+        },
+        {
+            "feature": "event_active_days",
+            "mean_abs_shap": 0.03811930865049362,
+            "rank": 17
+        },
+        {
+            "feature": "day_of_year",
+            "mean_abs_shap": 0.031239358708262444,
+            "rank": 18
+        },
+        {
+            "feature": "distance_to_mining_km",
+            "mean_abs_shap": 0.027845611795783043,
+            "rank": 19
+        },
+        {
+            "feature": "detections_30d",
+            "mean_abs_shap": 0.02201906405389309,
+            "rank": 20
+        }
+    ],
+    "files": {
+        "global_importance": "D:\\datasets\\OSM_India\\shap_results\\global_feature_importance.csv",
+        "event_explanations": "D:\\datasets\\OSM_India\\shap_results\\event_explanations.csv",
+        "raw_shap_values": "D:\\datasets\\OSM_India\\shap_results\\shap_values.csv",
+        "summary_plot": "D:\\datasets\\OSM_India\\shap_results\\plots\\shap_summary.png",
+        "bar_plot": "D:\\datasets\\OSM_India\\shap_results\\plots\\shap_bar.png"
+    }
+}

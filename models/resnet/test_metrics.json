@@ -1,0 +1,9 @@
+{
+    "test_loss": 0.7298309616959853,
+    "test_accuracy": 0.6878612716763006,
+    "test_precision_weighted": 0.6952676887167952,
+    "test_recall_weighted": 0.6878612716763006,
+    "test_f1_weighted": 0.6841556990698401,
+    "test_samples": 173,
+    "best_epoch": 3
+}

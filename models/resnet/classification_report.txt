@@ -1,0 +1,10 @@
+                 precision    recall  f1-score   support
+
+        Natural       0.59      0.75      0.66        48
+     Industrial       0.85      0.70      0.77        47
+         Mining       0.76      0.88      0.82        33
+Other_Uncertain       0.60      0.47      0.53        45
+
+       accuracy                           0.69       173
+      macro avg       0.70      0.70      0.69       173
+   weighted avg       0.70      0.69      0.68       173

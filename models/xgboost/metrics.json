@@ -1,0 +1,33 @@
+{
+    "train": {
+        "accuracy": 1.0,
+        "precision_weighted": 1.0,
+        "recall_weighted": 1.0,
+        "f1_weighted": 1.0,
+        "f1_macro": 1.0
+    },
+    "validation": {
+        "accuracy": 1.0,
+        "precision_weighted": 1.0,
+        "recall_weighted": 1.0,
+        "f1_weighted": 1.0,
+        "f1_macro": 1.0
+    },
+    "test": {
+        "accuracy": 0.9942196531791907,
+        "precision_weighted": 0.9943896633798028,
+        "recall_weighted": 0.9942196531791907,
+        "f1_weighted": 0.9942317129623188,
+        "f1_macro": 0.9935804846734071
+    },
+    "num_features": 53,
+    "num_train_samples": 1442,
+    "num_validation_samples": 179,
+    "num_test_samples": 173,
+    "classes": {
+        "0": "Natural",
+        "1": "Industrial",
+        "2": "Mining",
+        "3": "Other_Uncertain"
+    }
+}
